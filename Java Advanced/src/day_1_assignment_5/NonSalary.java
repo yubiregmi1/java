@@ -1,4 +1,4 @@
-package wellsAccount;
+package day_1_assignment_5;
 
 public class NonSalary extends Account {
 	

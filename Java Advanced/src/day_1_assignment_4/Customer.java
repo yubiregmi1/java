@@ -1,4 +1,4 @@
-package Assignment4;
+package day_1_assignment_4;
 
 public class Customer {
 	

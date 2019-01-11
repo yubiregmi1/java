@@ -1,4 +1,4 @@
-package Assignment2;
+package day_1_assignment_2;
 
 public class EmployeeGrade {
 

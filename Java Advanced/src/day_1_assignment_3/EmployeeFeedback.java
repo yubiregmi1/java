@@ -1,4 +1,4 @@
-package Assignment3;
+package day_1_assignment_3;
 
 public class EmployeeFeedback {
 	
