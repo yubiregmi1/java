@@ -1,3 +1,4 @@
+package day_2_assignment_9;
 public class Student
 {
 	private static int sID = 549;

@@ -1,3 +1,4 @@
+package day_2_assignment_6;
 public class UserType {
 	String name;
 	

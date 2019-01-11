@@ -1,3 +1,4 @@
+package day_2_assignment_4_5_7;
 public class CourseManagement
 {
 	public static void main (String args[])

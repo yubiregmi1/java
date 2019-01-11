@@ -1,3 +1,4 @@
+package day_2_assignment_8;
 public class Class1 {
 
 	int i=22;
