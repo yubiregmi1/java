@@ -9,6 +9,9 @@ public class Class1 {
 	public static void main(String args[]){
 		int i=22;
 		int j=14000;
+		int a=5;
+		int b=10;
+		
 		Class1 class1= new Class1();
 		boolean k= class1.method1(i);		
 		boolean l= class1.method2(j);
@@ -22,6 +25,11 @@ public class Class1 {
 		{
 			System.out.print(" Is not a new employee");
 		}
+		
+		Class1 addnumbers = new Class1();
+		//int result;
+		//result = addnumbers.add(a, b);
+		System.out.println(addnumbers.add(a, b));
 	}
 	
 	public boolean method1(int i)
@@ -46,6 +54,11 @@ public class Class1 {
 		{
 			return false;
 		}
+	}
+	
+	public int add(int p, int q)
+	{
+		return p+q;
 	}
 
 }
