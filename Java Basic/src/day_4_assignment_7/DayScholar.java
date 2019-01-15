@@ -6,7 +6,7 @@ public final class DayScholar extends Student{
 	
 	DayScholar()
 	{
-		
+		//System.out.println("Residential Address:"+residentialAddress);
 	}
 	
 	DayScholar(int sId,char sType,String sName,double fees,String rAddress)

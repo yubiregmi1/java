@@ -8,7 +8,7 @@ public class Main {
 		dayScholar.setStudentId(1001);
 		dayScholar.setStudentType('D');
 		dayScholar.setStudentName("Thomas");
-		//((DayScholar) dayScholar).setResAddress("Res add");
+		((DayScholar) dayScholar).setResAddress("Res add");
 		dayScholar.calculateFees();
 		dayScholar.displayDetails();
 
