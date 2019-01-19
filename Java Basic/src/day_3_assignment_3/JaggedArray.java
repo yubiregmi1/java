@@ -9,11 +9,12 @@ public class JaggedArray {
 		
 		//get the details of required student
 		stdDetail = mdArray[3];
+		System.out.println(stdDetail);
 		
-		for (int i=0;i<stdDetail.length;i++)
-		{
-			System.out.println(stdDetail[i]);
-		}
+		//for (int i=0;i<stdDetail.length;i++)
+		//{
+		//	System.out.println(stdDetail[i]);
+		//}
 		
 
 	}
