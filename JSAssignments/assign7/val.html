@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	h1,h4 {
+		text-align : center;
+		color: #930000;
+	}
+	
+	table.smallTable{
+		width:40%;
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+		background-color:#def49c;
+		
+	}
+	
+	label.w{
+		color:red;
+		font-size:10pt;
+	}
+	
+
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="#a9f9cb">
+<h1>INFY BANK</h1>
+<p><p>
+<h4>Customer Registration Form</h4>
+<form id="custRegForm" >
+<table id="custRegTab" class="smallTable" >
+	<tr><td>Customer Name <label class="w">(*)</label></td><td><input id="custName" type="text" required/></td></tr>
+	<tr><td>DOB<label class="w">(*)</label></td><td><input id="custDOB" type="date" required/></td></tr>
+	<tr><td>Email<label class="w">(*)</label></td><td><input id="custEmail" type="email" pattern=".+@.+.com" required/></td></tr>	
+	<tr><td align="left"><label class="w">Mandatory(*)</label></td><td><input id="subBut" type="submit" value="Submit"/></td></tr>
+</table>
+</form>
+</body>
+</html>

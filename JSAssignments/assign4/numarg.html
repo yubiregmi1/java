@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+		function calcAverage()
+		{
+			var tot=0;
+			console.log("beginning of for loop");
+			for (i=0;i<arguments.length;i++)
+			{
+				console.log("inside for loop"+i);
+				tot=tot+arguments[i];	
+			}
+			return tot/3;
+		}
+			console.log("outside loop");
+			document.write("Average of 3,4,5: "+calcAverage(3,4,5));			
+		
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	
+</body>
+</html>

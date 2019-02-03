@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function funDisp()
+	{
+		alert("textbox value is "+document.forms[0].elements[0].value);
+		alert("textbox value is "+document.forms[0].elements[1].value);
+		alert("textbox value is "+document.forms[0].elements[2].value);
+	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form name="frm1">
+	<input type="text" name="txt1" value="imcs"><br>
+	<input type="radio" name="rad1" value="1" checked>Ok<br>
+	<input type="button" value="submit" name="but1" onclick="funDisp()">
+</form>
+
+</body>
+</html>

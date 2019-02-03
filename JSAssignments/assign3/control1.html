@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var res;
+
+function checkIfDivisibleBy5or6()
+{
+	num = document.getElementById('ip_id').value;
+	if (!(num%5 && num%6)){
+		//res="Divisible";
+			document.getElementById("result").style.color="green";
+			document.getElementById("result").innerHTML="Divisible";}
+	else
+		{//res="Not Divisible";
+			document.getElementById("result").style.color="red";
+			document.getElementById("result").innerHTML="Not Divisible";}
+}
+</script>
+
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>JavaScript Control Demo</h1>
+	
+	<input type="text" id="ip_id" value="">
+    <input type="button" value="Check" onclick="checkIfDivisibleBy5or6()"/><br>
+    <div id="result"></div>
+    
+	
+</body>
+</html>

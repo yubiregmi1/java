@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="radiojs.js">
+</script>
+<style>
+h3{
+	color:green;
+	
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="#c5efa5">
+	<h3 align="center">QUESTIONS</h3>
+	<p align="center"><font color="red">What is Minimum balance for a Salary Account in Infy Bank?</font>
+	<p id="radios" align="center"><input id="rad_1" type="radio" name="rad" value="1000.00" /> 1000.00
+		<input id="rad_2" type="radio" name="rad" value="0.00" /> 0.00
+		<input id="rad_3" type="radio" name="rad" value="100.00" /> 100.00
+		<input id="rad_4" type="radio" name="rad" value="Not Answered" /> Not Answered
+		<input id="sub" type="submit" onclick="checkRadio()"/>
+	</p>
+	<p>
+		You selected : <label id="op"></label>
+	</p>
+</body>
+</html>

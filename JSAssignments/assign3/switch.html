@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function checkIfCharacterIsVowel()
+	{
+		switch(document.getElementById('ip_char').value)
+		{
+		case ("a"):
+			document.getElementById('result').innerHTML="Vowel";
+			break;
+		case ("A"):
+			document.getElementById('result').innerHTML="Vowel";
+			break;
+		case ("e"):
+			document.getElementById('result').innerHTML="Vowel";
+			break;
+		case ("E"):
+			document.getElementById('result').innerHTML="Vowel";
+			break;
+		case ("i"):
+			document.getElementById('result').innerHTML="Vowel";
+			break;
+		case ("I"):
+			document.getElementById('result').innerHTML="Vowel";
+			break;
+		case ("o"):
+			document.getElementById('result').innerHTML="Vowel";
+			break;
+		case ("O"):
+			document.getElementById('result').innerHTML="Vowel";
+			break;
+		case ("u"):
+			document.getElementById('result').innerHTML="Vowel";
+			break;
+		case ("U"):
+			document.getElementById('result').innerHTML="Vowel";
+			break;
+		default:
+			document.getElementById('result').innerHTML="Not Vowel";
+		}
+		
+	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Check if the character is a vowel</h2>
+<h4>Give input in the form below</h4>
+<form id="form1">
+	<input id="ip_char" type="text">
+	<input id="s_button" type="button" value="Check" onclick="checkIfCharacterIsVowel()">
+	<div id="result"></div>
+</form>
+</body>
+</html>

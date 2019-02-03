@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	var counter = 0;
+	var timer_flag=0;
+	var timer_id;
+	
+	function startSW()
+	{
+		if (!timer_flag)
+		{
+			timer_flag=1;
+			startCounting();			
+		}
+	}
+	
+	function startCounting()
+	{
+		document.getElementById("stopwatch_op").value=counter;
+		counter=counter+1;
+		t = setTimeout(startCounting,1000);
+	}
+	
+	function stopCounting()
+	{
+		clearTimeout(t);
+		timer_flag=0;
+	}
+	
+	function reset()
+	{
+		stopCounting();
+		counter=0;
+		document.getElementById("stopwatch_op").value=counter;
+	}
+	
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Stop Watch</h1>
+<input id="stopwatch_op" name="stopwatch" readonly/><br>
+<input id="start_button" name="startbutton" type="button" value = "Start" onclick="startCounting()"/>
+<input id="stop_button" name="stopbutton" type="button" value="Stop" onclick="stopCounting()"/>
+<input id="reset_button" name="resetbutton" type="button" value="Reset" onclick="reset()"/>
+</body>
+</html>

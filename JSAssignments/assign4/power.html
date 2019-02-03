@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function power(arg1,arg2)
+	{
+		document.getElementById("result").innerHTML = Math.pow(document.getElementById("arg1").value,document.getElementById("arg2").value);
+		
+	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Power function</h2>
+	<form>
+		<h3>Enter the number below.</h3>
+		<input id="arg1" type="text" value="arg1">
+		<input id="arg2" type="text" value="arg2">
+		
+		 <input type="button" value="Check" onclick="power()"/>
+		
+	</form>
+	
+	<div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Main Window</title>
+<script language="JavaScript">
+	window.status = "Check the status bar";
+	function openNew()
+	{
+		newwin = window.open("newwin.html","newone","width=300","height=400","toolbar=no");
+	}
+	
+	function closeWin()
+	{
+		newwin.close();
+	}
+</script>
+</head>
+<body>
+	<font color="red" size="5">Main Window</font>
+	<input type="button" value="Open" onclick="openNew()">
+	<input type="button" value="Close" onclick="closeWin()">
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script language="JavaScript"> 
+function disp()
+{
+	ind = document.f1.webs.selectedIndex;
+	document.getElementById("dispVal").innerHTML = document.f1.webs.options[ind].value; 
+	document.getElementById("dispTxt").innerHTML = document.f1.webs.options[ind].text;
+	//alert("the value is \n"+document.f1.webs.options[ind].value); 
+	//alert("the text is \n"+document.f1.webs.options[ind].text);
+}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form name="f1">
+		<select name="webs" onchange="disp()">
+		<option value="1"> http://sparsh
+		<option value="2"> http://kshop
+		<option value="3"> http://172.21.20.155/
+		<option value="4">http://enr.ad.Imcs.com/
+		</select>
+	</form>
+	The value is : <label id="dispVal"></label><br>
+	The text is : <label id="dispTxt"></label>
+</body>
+</html>
