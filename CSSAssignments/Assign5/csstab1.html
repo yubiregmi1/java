@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	h1{
+		color:green;
+		text-align:center;
+	}
+	h2.t1Heading{
+		color:red;
+		text-align:center;
+	}
+	table,td,th{
+		border:2px solid black;
+		border-collapse:collapse;
+		width:50%;
+	}
+	th{
+		background-color:#ed9c5a
+	}
+
+tr:nth-child(even){background-color:#f2f2f2; text-color:#ed9c5a}
+tr:nth-child(odd){background-color:#b9f293; text-color:#235402}
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Heading in h1</h1>
+	<h2 class="t1Heading">Mini Accountant Statement</h2>
+	<table class="table1" align="center">
+		<tr class="t1Head"><th>Account ID</th> <th>Description</th> <th>Date</th> <th>Amount</th></tr>
+		<tr class="t1Odd"><td>54576989</td> <td>Bill/Cash Paid to Jack</td> <td>12-Jan-2009</td> <td>3000</td></tr>
+		<tr class="t1Even"><td>54576989</td> <td>Bill/Cash Paid to Jack</td> <td>12-Jan-2009</td> <td>3000</td></tr>
+		<tr class="t1Odd"><td>54576989</td> <td>Bill/Cash Paid to Jack</td> <td>12-Jan-2009</td> <td>3000</td></tr>
+		<tr class="t1Even"><td>54576989</td> <td>Bill/Cash Paid to Jack</td> <td>12-Jan-2009</td> <td>3000</td></tr>
+	</table>
+</body>
+</html>
